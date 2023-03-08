@@ -56,11 +56,43 @@ function changeSlide(){
   
   index++;
   
-  setTimeout(changeSlide,15000);
+  setTimeout(changeSlide,20000);
   
 }
 
 changeSlide();  
+
+
+//function for  big screen sliding images
+var index = 0;
+var slideBig = document.querySelectorAll(".home-big-img");
+
+
+function Slides(){
+
+  if(index < 0){
+    index = slideBig.length-1;
+  }
+  
+  if(index > slideBig.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i < slideBig.length;i++){
+    slideBig[i].style.display = "none";
+  }
+  
+  slideBig[index].style.display= "block";
+  
+  index++;
+  
+  setTimeout(Slides,20000);
+  
+}
+
+Slides();
+
+
 
 
 
