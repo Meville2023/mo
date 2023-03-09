@@ -1,6 +1,23 @@
 
+@media (max-width: 728px) {
+  
+
+  .big-screen-img .big-smallie{
+    display:none;
+  }
+
+}
+
+
+
 @media (min-width: 728px) {
   
+
+.small-screen-img .smallie{
+  display:none;
+}
+
+
   
   .home-abt h3 {
 	letter-spacing: 2px;
