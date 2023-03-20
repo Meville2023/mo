@@ -6,12 +6,28 @@
     display:none;
   }
 
+  
+
 }
 
 
 
 @media (min-width: 728px) {
   
+  .big-smallie{
+    overflow:hidden;
+  }
+
+
+
+  .home-abt{
+
+    text-align:center;
+    padding:320px 20px 30px 20px;
+    text-align: left;
+    }
+
+
 
 .small-screen-img .smallie{
   display:none;
@@ -38,11 +54,29 @@ gap:30px;
 }
 
 
-  .service-card{
+  .service-card {
   padding-bottom:35px;
   width:60%;
-
+height:600px;
+border-radius:10px;
   }
+
+
+  .awards{
+    display:flex;
+    flex-direction: row;
+     justify-content:center;
+align-items: center;
+   gap:100px;
+  }
+
+  .award-card {
+   
+    width:250px;
+  
+ 
+    }
+  
 
 
   .mo-services,
@@ -52,15 +86,21 @@ gap:30px;
 padding:8%;
   }
   
-  .serv-img-card{
-  
-    }
+  .color-bg{
+    background-color: #f4efe9;
+   
+  }
+
+
   
   
   .serv-btn-card{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap:60px;
+   position:relative;
+ 
   }
   
   
@@ -78,7 +118,9 @@ padding:8%;
   
   .service-image-card img{
 	width:230px;
+ 
   }
+  
   
 
 
@@ -190,5 +232,12 @@ justify-content: center;
  justify-content: center;
  align-items:center
 }
+
+
+  
+ 
+     
+
+
 
  }
