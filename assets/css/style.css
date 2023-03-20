@@ -209,7 +209,7 @@ justify-content:center;
 
 
    #special-btn{
-   background-color:var(--color-light-purple);
+   background-color:var(--color-dark-purple);
    color:white;
    width:130px;
    text-align: center;
@@ -435,7 +435,22 @@ padding-top:6px;
 
 
 
+/*-----------------------------------*\ 
+  #AWARDS AND RESPONSIBILITY
+\*-------------------------------------*/
 
+.award-img-card{
+height:250px;
+overflow: hidden;
+}
+
+
+.awards{
+display: flex; 
+flex-direction: column;
+ gap: 50px;
+  padding-top: 20px;
+}
 /*-----------------------------------*\ 
   #BE A CHEF
 \*-------------------------------------*/
@@ -771,7 +786,7 @@ footer h3{
 	   
 	   .nav-link{
 		font-weight:600;
-    top:40px;
+    top:45px;
     font-size:58px;
      display:inline-flex;
      visibility: visible;
@@ -788,7 +803,7 @@ footer h3{
 	   
 
 	   #special-btn{
-	   background-color:var(--color-light-purple);
+	   
 	   color:white;
 	   width:130px;
 	   text-align: center;
